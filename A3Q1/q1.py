@@ -36,7 +36,7 @@ def deleteStudent(student_id):
     # a constant loop asking for input and calling the relevant function
 x = -1
 while(x != '0'):
-    print("Enter input ")
+    print("Enter input:\n1. Get all students \n2. Add Student \n3. Update Student Email \n4. Delete Student ")
     x = input()
 
     if(x == "1"):
